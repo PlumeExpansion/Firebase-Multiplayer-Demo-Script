@@ -1,5 +1,5 @@
 import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js'
-import { 
+import {
     getDatabase, ref, set, update, remove, onDisconnect, onValue, onChildAdded, onChildRemoved
 } from 'https://www.gstatic.com/firebasejs/10.12.2/firebase-database.js'
 import { getAuth, signInAnonymously, onAuthStateChanged } from 'https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js'
